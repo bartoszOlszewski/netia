@@ -5,12 +5,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NETIA</title>
+    <script defer src="main.js"></script>
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-    <h2>This is new site Netia's partner</h2>
-    <p>Page under construction</p>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Przycisk 1</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Przycisk 2</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Przycisk 3</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Przycisk 4</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Przycisk 5</a></li>
+        </ul>
+    </nav>
+
+    <!-- header tło na poligonie - strzałka w dół -->
+    <header class="header">
+        <div class="header__logo-box">
+            <img src="img/netia.jpeg" alt="Netia logo" class="header__logo">
+        </div>
+        <div class="header__contact-box c-box">
+            <img src="img/phone.svg" alt="phone icon" class="c-box__icon">
+            <!-- telefon z animacją dzwoniący co kilka sekund -->
+            <div class="c-box__data">
+                <p class="c-box__number">123 456 789</p>
+                <p class="c-box__slogan">Zadzwoń do nas</p>
+            </div>
+        </div>
+
+        <div class="header__gallery">
+            <figure>
+                <img class="header__img" src="img/s1.jpeg" alt="View of 1 service I build">
+            </figure>
+            <h2 class="header__title">Netia - najlepszy dostawca internetu wg. badania uke</h2>
+            <div class="dots">
+                <button class="btn" id="0">
+                    <span class="dots__dot active"></span>
+                </button>
+                <button class="btn" id="1">
+                    <span class="dots__dot"></span>
+                </button>
+                <button class="btn" id="2">
+                    <span class="dots__dot"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <article>Pierwsza oferta</article>
+        <article>Druga oferta</article>
+        <article>Trzecia oferta</article>
+        <article>Czwarta oferta</article>
+    </main>
+    <section>
+        sekcja z formularzem na e-mail
+    </section>
+    <footer class="footer">kontakty i linki</footer>
 </body>
 
 </html>
